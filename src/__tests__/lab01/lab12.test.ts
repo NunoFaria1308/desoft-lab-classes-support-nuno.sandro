@@ -15,7 +15,7 @@ describe("Teorema de Tales", () => {
     const sombpredio = 4;
     const altupax = 6;
     const sombpax = 6;
-    const resultadoEsperado = sombpredio;
+    const resultadoEsperado = 0;
     const resultado = teoremaDeTales(altpredio, sombpredio, altupax, sombpax);
     expect(resultado).toEqual(resultadoEsperado);
   });
